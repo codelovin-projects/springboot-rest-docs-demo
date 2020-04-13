@@ -7,3 +7,6 @@ include::{snippets}/home/http-request.adoc[]
 
 .response
 include::{snippets}/home/http-response.adoc[]
+
+.response-fields
+include::{snippets}/home/response-fields.adoc[]

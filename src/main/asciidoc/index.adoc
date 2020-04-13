@@ -1,22 +1,26 @@
 = Spring REST Docs of Demo API
 
-== Get greeting message
+== Introduction
+This is an example of Spring REST Docs generated documentation.
 
+== Persons API
+Collection of CRUD API endpoints used to manipulate persons registered in the application.
 
-.Request
+=== Get greeting message
+
+==== Sample Request
 include::{snippets}/home/http-request.adoc[]
 
-.Response
+==== Sample Response
 include::{snippets}/home/http-response.adoc[]
 
-.Response Fields
+==== Response Fields
 include::{snippets}/home/response-fields.adoc[]
 
-== Save a person
+=== Save a person
 
-
-.Request
+==== Sample Request
 include::{snippets}/save-person/http-request.adoc[]
 
-.Response
+==== Sample Response
 include::{snippets}/save-person/http-response.adoc[]

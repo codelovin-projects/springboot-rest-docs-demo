@@ -10,6 +10,7 @@ public class PersonService {
 	
 	public Person savePerson(Person p) {
 		// person is saved to db
+		p.setId(1L);
 		return p;
 	}
 	

@@ -1,12 +1,22 @@
-= Getting Started With Spring REST Docs
+= Spring REST Docs of Demo API
 
-This is an example output for a service running at http://localhost:9920:
+== Get greeting message
 
-.request
+
+.Request
 include::{snippets}/home/http-request.adoc[]
 
-.response
+.Response
 include::{snippets}/home/http-response.adoc[]
 
-.response-fields
+.Response Fields
 include::{snippets}/home/response-fields.adoc[]
+
+== Save a person
+
+
+.Request
+include::{snippets}/save-person/http-request.adoc[]
+
+.Response
+include::{snippets}/save-person/http-response.adoc[]

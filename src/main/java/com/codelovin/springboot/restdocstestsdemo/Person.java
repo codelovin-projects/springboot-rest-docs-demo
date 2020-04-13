@@ -1,10 +1,19 @@
 package com.codelovin.springboot.restdocstestsdemo;
 
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
+
 public class Person {
 
 	private Long id;
+	
+	@NotNull(message = "First name should not be empty")
+	@Size(min = 1, max = 50, message = "First name should be between 1 and 60 characters")
 	private String firstName;
+	
+	@Size(min = 1, max = 50, message = "Last name should be between 1 and 60 characters")
 	private String lastName;
+	
 	private String emailAddress;
 	
 	public Person() {}
